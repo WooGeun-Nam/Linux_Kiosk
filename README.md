@@ -9,11 +9,11 @@ use ide : Visualstudio , goormide
 * 2021-04-18 : ++thread timer function
 * 2021-04-25 : ++kiosk menu, order system
 * 2021-04-26 : ++code simplify & code test, debug   
- - 코드간소화   
-   + 카테고리별 메뉴 배열을 전체 메뉴배열로 통합 ( 1차원 배열 -> 2차원 배열 )   
-   + 메뉴 통합에 따른 가격 산정 알고리즘을 새로 작성하여 select_size -> select_size_price 로 변경 select_size_price 함수내에서 모든 메뉴의 가격 계산가능   
- - ++ 프로그램 종료시 최종 합산금액 표시   
- - ++ 메인메뉴에서는 카운터가 작동하지 않도록 수정   
+ * 코드간소화
+   * 카테고리별 메뉴 배열을 전체 메뉴배열로 통합 ( 1차원 배열 -> 2차원 배열 )   
+   * 메뉴 통합에 따른 가격 산정 알고리즘을 새로 작성하여 select_size -> select_size_price 로 변경 select_size_price 함수내에서 모든 메뉴의 가격 계산가능   
+ * 프로그램 종료시 최종 합산금액 표시   
+ * 메인메뉴에서는 카운터가 작동하지 않도록 수정   
 
 ## Version information
 - 1.0 : 20초간 입력없을시 프로그램 종료 (싱글스레드 구조)
